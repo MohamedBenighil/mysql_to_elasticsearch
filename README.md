@@ -10,3 +10,5 @@
 ](url)
 
 4. Le résultat est bien retouné en format json, comme illustré au côté gauche de la figure ci-dessus.
+
+Le schéma relationnel du dump hébergé dans le conteneur MySQL est disponible sur : http://www.mysqltutorial.org/mysql-sample-database.aspx donc pour toute requête, il suffit de modifier le fichier logstash.conf dans le repertoire logstash/pipeline/logstash.conf selon le besoin, et de relancer juste le service logstash à l'aide de la commande : docker-compose up logstash
